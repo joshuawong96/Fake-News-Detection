@@ -20,8 +20,8 @@ from sklearn.naive_bayes import BernoulliNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import LinearSVC
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, VotingClassifier
+from xgboost import XGBClassifier
 
 from sklearn.metrics import classification_report,confusion_matrix, ConfusionMatrixDisplay, accuracy_score
 from sklearn.metrics import precision_recall_fscore_support
